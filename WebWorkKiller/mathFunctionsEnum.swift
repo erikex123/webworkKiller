@@ -7,3 +7,7 @@
 //
 
 import Foundation
+enum mathFunctionsEnum{
+    case definiteIntegral
+    case improperIntegral
+}

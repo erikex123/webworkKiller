@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F09D0B371E975B1400D0BDCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B361E975B1400D0BDCB /* AppDelegate.swift */; };
-		F09D0B391E975B1400D0BDCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B381E975B1400D0BDCB /* ViewController.swift */; };
 		F09D0B3C1E975B1400D0BDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09D0B3A1E975B1400D0BDCB /* Main.storyboard */; };
 		F09D0B3E1E975B1400D0BDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09D0B3D1E975B1400D0BDCB /* Assets.xcassets */; };
 		F09D0B411E975B1400D0BDCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09D0B3F1E975B1400D0BDCB /* LaunchScreen.storyboard */; };
 		F09D0B4C1E975B1400D0BDCB /* WebWorkKillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B4B1E975B1400D0BDCB /* WebWorkKillerTests.swift */; };
 		F09D0B571E975B1400D0BDCB /* WebWorkKillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B561E975B1400D0BDCB /* WebWorkKillerUITests.swift */; };
+		F09D0B651E97C9A700D0BDCB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B641E97C9A700D0BDCB /* TableViewController.swift */; };
+		F09D0B691E97CAF000D0BDCB /* MathFucntions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B681E97CAF000D0BDCB /* MathFucntions.swift */; };
+		F09D0B6C1E97CF0900D0BDCB /* definiteIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B6B1E97CF0900D0BDCB /* definiteIntegral.swift */; };
+		F09D0B6E1E97D2FD00D0BDCB /* mathFunctionsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B6D1E97D2FD00D0BDCB /* mathFunctionsEnum.swift */; };
+		F09D0B701E980AF100D0BDCB /* ImproperIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B6F1E980AF100D0BDCB /* ImproperIntegral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		F09D0B331E975B1400D0BDCB /* WebWorkKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebWorkKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09D0B361E975B1400D0BDCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F09D0B381E975B1400D0BDCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F09D0B3B1E975B1400D0BDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F09D0B3D1E975B1400D0BDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09D0B401E975B1400D0BDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		F09D0B521E975B1400D0BDCB /* WebWorkKillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebWorkKillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09D0B561E975B1400D0BDCB /* WebWorkKillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebWorkKillerUITests.swift; sourceTree = "<group>"; };
 		F09D0B581E975B1400D0BDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09D0B641E97C9A700D0BDCB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F09D0B681E97CAF000D0BDCB /* MathFucntions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MathFucntions.swift; path = ../MathFucntions.swift; sourceTree = "<group>"; };
+		F09D0B6B1E97CF0900D0BDCB /* definiteIntegral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = definiteIntegral.swift; sourceTree = "<group>"; };
+		F09D0B6D1E97D2FD00D0BDCB /* mathFunctionsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mathFunctionsEnum.swift; sourceTree = "<group>"; };
+		F09D0B6F1E980AF100D0BDCB /* ImproperIntegral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImproperIntegral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,11 @@
 		F09D0B351E975B1400D0BDCB /* WebWorkKiller */ = {
 			isa = PBXGroup;
 			children = (
+				F09D0B6A1E97CEDC00D0BDCB /* functions */,
 				F09D0B361E975B1400D0BDCB /* AppDelegate.swift */,
-				F09D0B381E975B1400D0BDCB /* ViewController.swift */,
+				F09D0B681E97CAF000D0BDCB /* MathFucntions.swift */,
+				F09D0B6D1E97D2FD00D0BDCB /* mathFunctionsEnum.swift */,
+				F09D0B641E97C9A700D0BDCB /* TableViewController.swift */,
 				F09D0B3A1E975B1400D0BDCB /* Main.storyboard */,
 				F09D0B3D1E975B1400D0BDCB /* Assets.xcassets */,
 				F09D0B3F1E975B1400D0BDCB /* LaunchScreen.storyboard */,
@@ -123,6 +134,15 @@
 				F09D0B581E975B1400D0BDCB /* Info.plist */,
 			);
 			path = WebWorkKillerUITests;
+			sourceTree = "<group>";
+		};
+		F09D0B6A1E97CEDC00D0BDCB /* functions */ = {
+			isa = PBXGroup;
+			children = (
+				F09D0B6B1E97CF0900D0BDCB /* definiteIntegral.swift */,
+				F09D0B6F1E980AF100D0BDCB /* ImproperIntegral.swift */,
+			);
+			name = functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09D0B391E975B1400D0BDCB /* ViewController.swift in Sources */,
+				F09D0B6E1E97D2FD00D0BDCB /* mathFunctionsEnum.swift in Sources */,
+				F09D0B691E97CAF000D0BDCB /* MathFucntions.swift in Sources */,
+				F09D0B6C1E97CF0900D0BDCB /* definiteIntegral.swift in Sources */,
+				F09D0B651E97C9A700D0BDCB /* TableViewController.swift in Sources */,
 				F09D0B371E975B1400D0BDCB /* AppDelegate.swift in Sources */,
+				F09D0B701E980AF100D0BDCB /* ImproperIntegral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
