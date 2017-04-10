@@ -26,7 +26,7 @@ class TableViewController: UITableViewController {
         
       hitableView.delegate = self
       hitableView.dataSource = self
-      mathFucntionsArray = [.definiteIntegral, .improperIntegral]
+      mathFucntionsArray = [.definiteIntegral, .improperIntegral , .checkConverDivergence]
 
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
 //        let vc = storyboard.instantiateViewController(withIdentifier: "MainAppStoryboard") as! UITableViewController
@@ -61,6 +61,8 @@ class TableViewController: UITableViewController {
             performSegue(withIdentifier: "definiteIntegralSegue", sender: self)
         case .improperIntegral:
             performSegue(withIdentifier: "improperIntegralSegue", sender: self)
+        case .checkConverDivergence:
+            performSegue(withIdentifier: "converDevergenceSegue", sender: self)
             
         default: print("default")
         }

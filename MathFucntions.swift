@@ -27,6 +27,7 @@ class MathFucntions: UITableViewCell {
         switch mathFunction{
         case .definiteIntegral: functionsLabel.text = "definite Integral"
         case .improperIntegral: functionsLabel.text = "Improper Integral"
+        case .checkConverDivergence: functionsLabel.text = "Convergence checker "
 
         }
     }

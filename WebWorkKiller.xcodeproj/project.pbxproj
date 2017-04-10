@@ -18,6 +18,7 @@
 		F09D0B6C1E97CF0900D0BDCB /* definiteIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B6B1E97CF0900D0BDCB /* definiteIntegral.swift */; };
 		F09D0B6E1E97D2FD00D0BDCB /* mathFunctionsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B6D1E97D2FD00D0BDCB /* mathFunctionsEnum.swift */; };
 		F09D0B701E980AF100D0BDCB /* ImproperIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B6F1E980AF100D0BDCB /* ImproperIntegral.swift */; };
+		F09D0B721E9BC29A00D0BDCB /* checkConverDivergence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D0B711E9BC29A00D0BDCB /* checkConverDivergence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F09D0B6B1E97CF0900D0BDCB /* definiteIntegral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = definiteIntegral.swift; sourceTree = "<group>"; };
 		F09D0B6D1E97D2FD00D0BDCB /* mathFunctionsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mathFunctionsEnum.swift; sourceTree = "<group>"; };
 		F09D0B6F1E980AF100D0BDCB /* ImproperIntegral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImproperIntegral.swift; sourceTree = "<group>"; };
+		F09D0B711E9BC29A00D0BDCB /* checkConverDivergence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkConverDivergence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				F09D0B6B1E97CF0900D0BDCB /* definiteIntegral.swift */,
 				F09D0B6F1E980AF100D0BDCB /* ImproperIntegral.swift */,
+				F09D0B711E9BC29A00D0BDCB /* checkConverDivergence.swift */,
 			);
 			name = functions;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				F09D0B6C1E97CF0900D0BDCB /* definiteIntegral.swift in Sources */,
 				F09D0B651E97C9A700D0BDCB /* TableViewController.swift in Sources */,
 				F09D0B371E975B1400D0BDCB /* AppDelegate.swift in Sources */,
+				F09D0B721E9BC29A00D0BDCB /* checkConverDivergence.swift in Sources */,
 				F09D0B701E980AF100D0BDCB /* ImproperIntegral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +535,7 @@
 				F09D0B5D1E975B1400D0BDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09D0B5E1E975B1400D0BDCB /* Build configuration list for PBXNativeTarget "WebWorkKillerTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +544,7 @@
 				F09D0B601E975B1400D0BDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09D0B611E975B1400D0BDCB /* Build configuration list for PBXNativeTarget "WebWorkKillerUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +553,7 @@
 				F09D0B631E975B1400D0BDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
