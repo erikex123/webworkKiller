@@ -56,14 +56,14 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedFunc = mathFucntionsArray[indexPath.row]
-//        switch selectedFunc {
-//        case .definiteIntegral:
-//            performSegue(withIdentifier: "definiteIntegralSegue", sender: self)
-//        case .improperIntegral:
-//            performSegue(withIdentifier: "improperIntegralSegue", sender: self)
-//            
-//        default: print("default")
-//        }
+        switch selectedFunc {
+        case .definiteIntegral:
+            performSegue(withIdentifier: "definiteIntegralSegue", sender: self)
+        case .improperIntegral:
+            performSegue(withIdentifier: "improperIntegralSegue", sender: self)
+            
+        default: print("default")
+        }
         
     }
     

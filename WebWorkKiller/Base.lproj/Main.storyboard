@@ -41,14 +41,14 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="functionsLabel" destination="eNM-FF-r9W" id="vYG-YC-VGs"/>
-                                    <segue destination="bsC-x3-Jhn" kind="presentation" identifier="definiteIntegralSegue" id="gC2-R3-CVC"/>
-                                    <segue destination="8mT-rG-2tq" kind="presentation" identifier="improperIntegralSegue" trigger="accessoryAction" id="m8A-Yr-GoW"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
                     <connections>
                         <outlet property="hitableView" destination="59D-mV-L4T" id="vm9-ME-Ikh"/>
+                        <segue destination="bsC-x3-Jhn" kind="presentation" identifier="definiteIntegralSegue" id="wKd-11-PGs"/>
+                        <segue destination="8mT-rG-2tq" kind="presentation" identifier="improperIntegralSegue" id="o07-d0-KlE"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWK-4Y-POM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -80,6 +80,16 @@
                     <view key="view" contentMode="scaleToFill" id="uqI-5a-l0x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqb-SU-cI0">
+                                <rect key="frame" x="164" y="381" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backbtnPressed:" destination="8mT-rG-2tq" eventType="touchUpInside" id="ZgR-ef-Utd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
