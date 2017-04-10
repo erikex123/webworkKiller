@@ -28,6 +28,9 @@ class TableViewController: UITableViewController {
       hitableView.dataSource = self
       mathFucntionsArray = [.definiteIntegral, .improperIntegral]
 
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewController(withIdentifier: "MainAppStoryboard") as! UITableViewController
+//        UIApplication.shared.keyWindow?.rootViewController?.present(vc, animated: true, completion: nil)
 
     }
 
@@ -53,16 +56,18 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedFunc = mathFucntionsArray[indexPath.row]
-        switch selectedFunc {
-        case .definiteIntegral:
-            performSegue(withIdentifier: "definiteIntegralSegue", sender: self)
-        case .improperIntegral:
-            performSegue(withIdentifier: "improperIntegralSegue", sender: self)
-            
-         default: print("default")
-        }
+//        switch selectedFunc {
+//        case .definiteIntegral:
+//            performSegue(withIdentifier: "definiteIntegralSegue", sender: self)
+//        case .improperIntegral:
+//            performSegue(withIdentifier: "improperIntegralSegue", sender: self)
+//            
+//        default: print("default")
+//        }
         
     }
+    
+    
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
